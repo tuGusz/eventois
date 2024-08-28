@@ -1,0 +1,85 @@
+html, body {
+    height: 100%;  
+    margin: 0;  
+}
+ 
+body {
+    background: url('/resources/backdetalhes.jpg') no-repeat center center fixed;
+    background-size: cover; 
+    font-family: Arial, sans-serif; 
+}
+
+.main-background {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    filter: blur(8px); 
+    z-index: -1;
+}
+
+header {
+    background-color: #007bff; 
+    color: #ffffff; 
+    text-align: center; 
+    padding: 2rem 1rem; 
+}
+
+header h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5rem;
+    margin: 0; 
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+main {
+    position: relative; 
+    padding-top: 1rem; 
+    padding-bottom: 3rem;  
+    z-index: 1; 
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    margin: 25rem;
+}
+
+.event-card {
+    border: 10px solid #ddd;
+    border-radius: 10px;    
+    overflow: hidden;      
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;    
+    background-color: #fff;
+    width: 100%;            
+    max-width: 350px;   
+}
+
+header {
+    background-color: #343a40; 
+    color: #ffffff; 
+    text-align: center;
+    padding: 2rem 1rem; 
+}
+
+.event-details {
+    max-width: 800px; 
+    margin: auto; 
+    padding: 1rem; 
+    background-color: #ffffff; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  
+}
+
+.btn {
+    background-color: #007bff; 
+    color: #ffffff;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes do Evento</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="./java/details.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Detalhes do Evento</h1>
+    </header>
+    <main>
+        <section class="event-details">
+            <h2 id="event-name">Nome do Evento</h2>
+            <p id="event-date">Data: </p>
+            <p id="event-location">Local: </p>
+            <p id="event-description">Descrição: </p>
+            <p id="event-price">Preço: </p>
+            <p id="event-availability">Ingressos Disponíveis: </p>
+            
+            <label for="ticket-quantity">Quantidade:</label>
+            <input type="number" id="ticket-quantity" min="1" value="1">
+            <p id="total-price">Valor Total: R$ 0,00</p>
+            <button class="btn" id="buy-tickets">Comprar Ingressos</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Vendas de Ingressos</p>
+    </footer>
+</body>
+</html>
